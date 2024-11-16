@@ -27,9 +27,12 @@ This project is a **Sentiment Analysis API** built using **FastAPI**. The API us
 
 ### Run Locally Without Docker
 **1.To set up a virtual environment and install dependencies:**
+### Setup Virtual Environment (Optional)
+```bash
 python3 -m venv env
-source env/bin/activate  # For Windows: env\Scripts\activate
+source env/bin/activate  # On Windows: env\Scripts\activate
 pip install -r requirements.txt
+
 **2. Train the Model**
 python src/models/train_model.py
 
