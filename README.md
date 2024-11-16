@@ -5,7 +5,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Supported-blue)
 
 ## Overview
-This project is a **Sentiment Analysis API** built using **FastAPI**. The API uses a pre-trained machine learning model (LightGBM) to predict the sentiment (Positive or Negative) of text data. The project is fully containerized using Docker and can be easily deployed locally or on any cloud platform.
+This project is a **Sentiment Analysis API** built using **FastAPI**. The API utilizes a pre-trained machine learning model to predict the sentiment (Positive or Negative) of text data. It is fully containerized with Docker, making it easy to deploy locally or on any cloud platform.
 
 ---
 
@@ -13,8 +13,6 @@ This project is a **Sentiment Analysis API** built using **FastAPI**. The API us
 - **Sentiment Analysis**: Predicts whether a given text is positive or negative.
 - **FastAPI**: High-performance web framework for serving the model.
 - **Docker**: Simplifies deployment and environment setup.
-- **LightGBM**: Fast and efficient machine learning model for predictions.
-
 ---
 
 ## Installation
