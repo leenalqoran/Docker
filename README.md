@@ -29,16 +29,17 @@ This project is a **Sentiment Analysis API** built using **FastAPI**. The API us
 **1.To set up a virtual environment and install dependencies:**
 ### Setup Virtual Environment 
 
-python3 -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-pip install -r requirements.txt
+- python3 -m venv env
+- source env/bin/activate  # On Windows: env\Scripts\activate
+- pip install -r requirements.txt
 
 **2. Train the Model**
-python src/models/train_model.py
+
+- python src/models/train_model.py
 
 **3. Start the API**
 
-uvicorn main:app --reload
+- uvicorn main:app --reload
 
 **4. Access the API**
 
