@@ -35,20 +35,30 @@ pip install -r requirements.txt
 '''
 
 **2. Train the Model**
+
+```bash
 python src/models/train_model.py
 
 **3. Start the API**
+
+```bash
 uvicorn main:app --reload
 
 **4. Access the API**
+
+```bash
 Once the server is running, open your browser or API testing tool and navigate to:
 
 Swagger UI: http://127.0.0.1:8000/docs
 
 ### Running with Docker
 **Build the Docker Image**
+
+```bash
 docker build -t fastapi-sentiment .
 **Run the Container**
+
+```bash
 docker run -p 8000:8000 fastapi-sentiment
 
 
